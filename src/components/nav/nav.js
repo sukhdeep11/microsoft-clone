@@ -9,7 +9,7 @@ const imgSrc="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/ima
 
 
 export default function Nav(){
-    const [ham,setHam]= useState(false)
+    const [ham,setHam]= useState(true)
 
     const toggleNav=()=> {
         return ham ? setHam(false) : setHam(true)
